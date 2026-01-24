@@ -1,0 +1,141 @@
+/**
+ * portfolioData - Centralized data store for the portfolio.
+ * To customize this portfolio, simply edit the values below.
+ */
+export const portfolioData = {
+    // Basic personal information
+    personal: {
+        name: "Ayush Kumar",
+        title: "Full Stack Developer",
+        description: "Crafting innovative web solutions with MERN Stack, passionate about building scalable applications and solving complex problems.",
+        email: "ayush22005kumar@gmail.com",
+        phone: "+91-8535987094",
+        linkedin: "https://linkedin.com/in/ayush-kumar",
+        github: "https://github.com/Ayush-Kumar"
+    },
+
+    // Statistics displayed in the 'About' section
+    stats: [
+        { number: "7.54", label: "CGPA" },
+        { number: "3+", label: "Projects" },
+        { number: "4+", label: "Certifications" },
+        { number: "2+", label: "Hackathons" }
+    ],
+
+    // Skills categorized by type
+    skills: {
+        languages: ["C", "C++", "Python", "Java"],
+        frameworks: ["React.js", "Node.js", "Tailwind CSS", "Bootstrap"],
+        databases: ["MongoDB", "MySQL"],
+        tools: ["Git", "GitHub", "REST APIs", "DSA"]
+    },
+
+    // Projects showcased in the 'Featured Projects' section
+    projects: [
+        {
+            id: 1,
+            icon: "🎯",
+            title: "TaskMaster",
+            subtitle: "AI-Powered Task Management System",
+            description: "Full-stack task management application with JWT authentication, CRUD operations, analytics dashboards, and AI-powered task creation. Features responsive UI with auto-hide navbar and data visualization.",
+            tech: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
+            date: "December 2025",
+            liveLink: "https://taskmaster-app-rose.vercel.app",
+            githubLink: "#"
+        },
+        {
+            id: 2,
+            icon: "🌤️",
+            title: "Intelligent Weather Forecasting",
+            subtitle: "Real-time Weather Application",
+            description: "Full-stack weather forecasting web application integrated with Open-Meteo API for real-time updates. Features intelligent activity-based recommendations and interactive analytics dashboards.",
+            tech: ["MongoDB", "Express.js", "React", "Node.js", "API"],
+            date: "November 2025",
+            liveLink: "https://weatherapp-frontend-dg8z.onrender.com/",
+            githubLink: "#"
+        },
+        {
+            id: 3,
+            icon: "🏠",
+            title: "Property Tax Management",
+            subtitle: "Tax Management System",
+            description: "Property tax management web application with CRUD operations, search and filtering capabilities. Reduced record retrieval time by 7 seconds through optimized database queries.",
+            tech: ["PHP", "MySQL", "JavaScript"],
+            date: "November 2025",
+            liveLink: "#",
+            githubLink: "#"
+        }
+    ],
+
+    // Education entries for the timeline
+    education: [
+        {
+            id: 1,
+            title: "B.Tech in Computer Science",
+            institution: "Lovely Professional University, Punjab",
+            meta: "CGPA: 7.54 | Aug 2023 - Present"
+        },
+        {
+            id: 2,
+            title: "Intermediate",
+            institution: "Green Point Academy, West Bengal",
+            meta: "76%"
+        },
+        {
+            id: 3,
+            title: "Matriculation",
+            institution: "Narayana School, West Bengal",
+            meta: "80%"
+        }
+    ],
+
+    // Certifications earned
+    certifications: [
+        {
+            id: 1,
+            title: "Data Structures and Algorithms using C++",
+            date: "Sep 2025"
+        },
+        {
+            id: 2,
+            title: "MongoDB Certification",
+            date: "Jul 2025"
+        },
+        {
+            id: 3,
+            title: "Deloitte Australia Technology Job Simulation",
+            date: "Jun 2025"
+        },
+        {
+            id: 4,
+            title: "Privacy and Security in Online Social Media - NPTEL",
+            date: "Oct 2025"
+        }
+    ],
+
+    // Hackathon participations
+    hackathons: [
+        {
+            id: 1,
+            title: "EY Hackathon 6.0",
+            date: "Sep 2025 | EY & Unstop"
+        },
+        {
+            id: 2,
+            title: "Build-a-Thon Hackathon",
+            date: "Apr 2024 | Boord Infinity"
+        }
+    ],
+
+    // Long intro used in the About section
+    about: "I'm a passionate Full Stack Developer pursuing B.Tech in Computer Science and Engineering at Lovely Professional University. With a strong foundation in MERN stack development and a keen interest in building innovative solutions, I strive to create impactful applications that solve real-world problems.",
+
+    // Coding and blog platform profiles
+    profiles: [
+        { id: 1, name: "LeetCode", url: "https://leetcode.com/u/Ayush2kumar22/", icon: "🏆" },
+        { id: 2, name: "CodeChef", url: "https://www.codechef.com/users/swift_hogs_40", icon: "👨‍💻" },
+        { id: 3, name: "InterviewBit", url: "https://www.interviewbit.com/profile/ayush-kumar_563/", icon: "💡" },
+        { id: 4, name: "GeeksforGeeks", url: "https://www.geeksforgeeks.org/profile/ayush220yf67?tab=activity", icon: "📚" },
+        { id: 5, name: "Medium", url: "https://medium.com/@ayush22005kumar", icon: "✍️", label: "Read my blogs" }
+    ]
+};
