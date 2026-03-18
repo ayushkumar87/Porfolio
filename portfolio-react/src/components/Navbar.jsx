@@ -86,6 +86,15 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
+                            href="#resume"
+                            className={`nav-link ${activeSection === 'resume' ? 'active' : ''}`}
+                            onClick={(e) => handleClick(e, '#resume')}
+                        >
+                            Resume
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="#contact"
                             className={`nav-link ${activeSection === 'contact' ? 'active' : ''}`}
                             onClick={(e) => handleClick(e, '#contact')}

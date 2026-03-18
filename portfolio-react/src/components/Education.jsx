@@ -30,7 +30,11 @@ const Education = () => {
                                 <div key={cert.id} className="cert-item">
                                     <div className="cert-icon">📜</div>
                                     <div className="cert-content">
-                                        <h4 className="cert-title">{cert.title}</h4>
+                                        <h4 className="cert-title">
+                                            <a href={cert.link || "#"} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }} onMouseOver={(e) => e.target.style.textDecoration = 'underline'} onMouseOut={(e) => e.target.style.textDecoration = 'none'}>
+                                                {cert.title} {cert.link && "↗"}
+                                            </a>
+                                        </h4>
                                         <p className="cert-date">{cert.date}</p>
                                     </div>
                                 </div>

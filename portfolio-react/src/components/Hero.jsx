@@ -33,31 +33,41 @@ const Hero = () => {
                     </h1>
                     <h2 className="hero-subtitle">{personal.title}</h2>
                     <p className="hero-description">{personal.description}</p>
-                    <div className="hero-buttons">
-                        <a href="#projects" className="btn btn-primary">
-                            <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M21 16.5c0 .38-.21.71-.53.88l-7.97 4.47c-.31.17-.69.17-1 0L3.53 17.38c-.32-.17-.53-.5-.53-.88V7.5c0-.38.21-.71.53-.88l7.97-4.47c.31-.17.69-.17 1 0l7.97 4.47c.32.17.53.5.53.88v9z" />
-                            </svg>
-                            View Projects
-                        </a>
-                        <a href="#profiles" className="btn btn-secondary">
-                            <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
-                            </svg>
-                            Profiles
-                        </a>
-                        <a href="#skills" className="btn btn-secondary">
-                            <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.89 12.55L12 15.89l6.11-3.34c-.66.39-1.33.71-2.01.95L12 15.1l-4.1-.41c-.69-.24-1.36-.56-2.01-.95z" />
-                            </svg>
-                            Skills
-                        </a>
-                        <a href="#contact" className="btn btn-secondary">
-                            <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-                            </svg>
-                            Contact us
-                        </a>
+                    <div className="hero-buttons" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-sm)' }}>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--spacing-sm)' }}>
+                            <a href="#projects" className="btn btn-primary">
+                                <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M21 16.5c0 .38-.21.71-.53.88l-7.97 4.47c-.31.17-.69.17-1 0L3.53 17.38c-.32-.17-.53-.5-.53-.88V7.5c0-.38.21-.71.53-.88l7.97-4.47c.31-.17.69-.17 1 0l7.97 4.47c.32.17.53.5.53.88v9z" />
+                                </svg>
+                                View Projects
+                            </a>
+                            <a href="#resume" className="btn btn-secondary">
+                                <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                                </svg>
+                                View CV
+                            </a>
+                            <a href="#profiles" className="btn btn-secondary">
+                                <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
+                                </svg>
+                                Profiles
+                            </a>
+                        </div>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--spacing-sm)' }}>
+                            <a href="#skills" className="btn btn-secondary">
+                                <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.89 12.55L12 15.89l6.11-3.34c-.66.39-1.33.71-2.01.95L12 15.1l-4.1-.41c-.69-.24-1.36-.56-2.01-.95z" />
+                                </svg>
+                                Skills
+                            </a>
+                            <a href="#contact" className="btn btn-secondary">
+                                <svg className="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                                Contact us
+                            </a>
+                        </div>
                     </div>
                     <div className="social-links">
                         <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
@@ -79,18 +89,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-image">
                     <div className="image-container">
-                        <div className="floating-card card-1">
-                            <div className="card-icon">💻</div>
-                            <div className="card-text">MERN Stack</div>
-                        </div>
-                        <div className="floating-card card-2">
-                            <div className="card-icon">⚡</div>
-                            <div className="card-text">Fast & Scalable</div>
-                        </div>
-                        <div className="floating-card card-3">
-                            <div className="card-icon">🎨</div>
-                            <div className="card-text">Modern UI</div>
-                        </div>
+                        <img src="/profile.jpg" alt="Ayush Kumar" className="hero-profile-img" />
                     </div>
                 </div>
             </div>

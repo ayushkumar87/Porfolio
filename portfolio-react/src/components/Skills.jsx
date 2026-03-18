@@ -40,6 +40,14 @@ const Skills = () => {
                             ))}
                         </div>
                     </div>
+                    <div className="skill-category">
+                        <h3 className="category-title">Soft Skills</h3>
+                        <div className="skill-items">
+                            {skills.softSkills?.map((skill, index) => (
+                                <div key={index} className="skill-item">{skill}</div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
