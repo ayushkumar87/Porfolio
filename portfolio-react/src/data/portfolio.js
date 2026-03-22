@@ -134,7 +134,17 @@ export const portfolioData = {
     ],
 
     // Long intro used in the About section
-    about: "I'm a passionate Full Stack Developer pursuing B.Tech in Computer Science and Engineering at Lovely Professional University. With a strong foundation in MERN stack development and a keen interest in building innovative solutions, I strive to create impactful applications that solve real-world problems.",
+    about: `I’m a Full Stack Developer in the making, currently pursuing a B.Tech in Computer Science at Lovely Professional University.
+
+What started as curiosity about how websites work has evolved into a strong passion for building scalable, real-world applications using the MERN stack (MongoDB, Express.js, React, Node.js).
+
+Beyond development, I’m deeply invested in problem-solving. I actively practice Data Structures and Algorithms on LeetCode, continuously sharpening my logical thinking, code optimization skills, and ability to tackle complex challenges.
+
+With a GPA of 7.64, certifications from NPTEL, MongoDB, and LPU, and hands-on experience through hackathons like EY Hackathon 6.0 and Build-a-Thon, I consistently push myself to learn, build, and grow.
+
+I believe great developers don’t just write code — they solve problems that create impact.
+
+Currently, I’m seeking opportunities where I can contribute, learn, and grow while building meaningful and impactful software.`,
 
     // Coding and blog platform profiles
     profiles: [
