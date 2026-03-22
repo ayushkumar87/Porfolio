@@ -10,8 +10,8 @@ export const portfolioData = {
         description: "Crafting innovative web solutions with MERN Stack, passionate about building scalable applications and solving complex problems.",
         email: "ayush22005kumar@gmail.com",
         phone: "+91-8535987094",
-        linkedin: "https://linkedin.com/in/ayush-kumar",
-        github: "https://github.com/Ayush-Kumar"
+        linkedin: "https://www.linkedin.com/in/ayush-kumar-4482412a1/",
+        github: "https://github.com/ayushkumar87"
     },
 
     // Statistics displayed in the 'About' section
@@ -42,7 +42,7 @@ export const portfolioData = {
             tech: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
             date: "January 2026",
             liveLink: "https://taskmaster-app-rose.vercel.app",
-            githubLink: "#"
+            githubLink: "https://github.com/ayushkumar87/taskmaster-app"
         },
         {
             id: 2,
@@ -53,7 +53,7 @@ export const portfolioData = {
             tech: ["MongoDB", "Express.js", "React", "Node.js", "API"],
             date: "November 2025",
             liveLink: "https://weatherapp-frontend-dg8z.onrender.com/",
-            githubLink: "#"
+            githubLink: "https://github.com/ayushkumar87/weather-app"
         },
         {
             id: 3,
@@ -64,7 +64,7 @@ export const portfolioData = {
             tech: ["PHP", "MySQL", "JavaScript"],
             date: "April 2025",
             liveLink: "#",
-            githubLink: "#"
+            githubLink: "https://github.com/ayushkumar87/INT219-INT220"
         }
     ],
 

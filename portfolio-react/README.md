@@ -25,7 +25,7 @@ A premium, high-performance portfolio template built with **React 18**, **Vite**
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/your-repo-name.git
+   git clone https://github.com/ayushkumar87/Porfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -69,7 +69,7 @@ If you want to use this portfolio for yourself, follow these exact steps:
 
 1. **Clone the Repo**
    ```bash
-   git clone https://github.com/Ayush-Kumar/portfolio-react.git
+   git clone https://github.com/ayushkumar87/Porfolio.git
    cd portfolio-react
    ```
 
@@ -93,4 +93,4 @@ If you want to use this portfolio for yourself, follow these exact steps:
    - Deploy the `dist` folder to Vercel, Netlify, or GitHub Pages!
 
 ---
-Created by [Ayush Kumar](https://github.com/Ayush-Kumar)
+Created by [Ayush Kumar](https://github.com/ayushkumar87)
