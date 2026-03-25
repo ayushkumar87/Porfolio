@@ -17,9 +17,17 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="skill-category">
-                        <h3 className="category-title">Frameworks</h3>
+                        <h3 className="category-title">Frontend</h3>
                         <div className="skill-items">
-                            {skills.frameworks.map((skill, index) => (
+                            {skills.frontend.map((skill, index) => (
+                                <div key={index} className="skill-item">{skill}</div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="skill-category">
+                        <h3 className="category-title">Backend</h3>
+                        <div className="skill-items">
+                            {skills.backend.map((skill, index) => (
                                 <div key={index} className="skill-item">{skill}</div>
                             ))}
                         </div>
@@ -36,6 +44,14 @@ const Skills = () => {
                         <h3 className="category-title">Tools & Others</h3>
                         <div className="skill-items">
                             {skills.tools.map((skill, index) => (
+                                <div key={index} className="skill-item">{skill}</div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="skill-category">
+                        <h3 className="category-title">Concepts</h3>
+                        <div className="skill-items">
+                            {skills.concepts.map((skill, index) => (
                                 <div key={index} className="skill-item">{skill}</div>
                             ))}
                         </div>

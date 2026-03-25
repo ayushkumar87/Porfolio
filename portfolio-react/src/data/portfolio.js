@@ -25,10 +25,12 @@ export const portfolioData = {
     // Skills categorized by type
     skills: {
         languages: ["C", "C++", "Python", "Java"],
-        frameworks: ["React.js", "Node.js", "Tailwind CSS", "Bootstrap"],
+        frontend: ["React.js", "Tailwind CSS", "Bootstrap"],
+        backend: ["Node.js", "Express.js"],
         databases: ["MongoDB", "MySQL"],
-        tools: ["Git", "GitHub", "REST APIs", "DSA"],
-        softSkills: ["Problem Solving", "Creativity", "Time Management", "Adaptability", "Teamwork"]
+        tools: ["Git", "GitHub", "Postman"],
+        concepts: ["Data Structures & Algorithms", "RESTful API Design", "OOP", "DBMS", "Operating Systems"],
+        softSkills: ["Problem Solving", "Team Collaboration", "Time Management", "Adaptability"]
     },
 
     // Projects showcased in the 'Featured Projects' section
@@ -41,6 +43,7 @@ export const portfolioData = {
             description: "Full-stack task management application with JWT authentication, CRUD operations, analytics dashboards, and AI-powered task creation. Features responsive UI with auto-hide navbar and data visualization.",
             tech: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
             date: "January 2026",
+            image: "/projects/taskmaster.png",
             liveLink: "https://taskmaster-app-rose.vercel.app",
             githubLink: "https://github.com/ayushkumar87/taskmaster-app"
         },
@@ -52,6 +55,7 @@ export const portfolioData = {
             description: "Full-stack weather forecasting web application integrated with Open-Meteo API for real-time updates. Features intelligent activity-based recommendations and interactive analytics dashboards.",
             tech: ["MongoDB", "Express.js", "React", "Node.js", "API"],
             date: "November 2025",
+            image: "/projects/weather.png",
             liveLink: "https://weatherapp-frontend-dg8z.onrender.com/",
             githubLink: "https://github.com/ayushkumar87/weather-app"
         },
@@ -63,10 +67,12 @@ export const portfolioData = {
             description: "Property tax management web application with CRUD operations, search and filtering capabilities. Reduced record retrieval time by 7 seconds through optimized database queries.",
             tech: ["PHP", "MySQL", "JavaScript"],
             date: "April 2025",
+            image: "/projects/tax.png",
             liveLink: "#",
             githubLink: "https://github.com/ayushkumar87/INT219-INT220"
         }
     ],
+    
 
     // Education entries for the timeline
     education: [
@@ -74,19 +80,22 @@ export const portfolioData = {
             id: 1,
             title: "B.Tech in Computer Science",
             institution: "Lovely Professional University, Punjab",
-            meta: "CGPA: 7.64 | Aug 2023 - Present"
+            cgpa: "7.64",
+            duration: "Aug 2023 - Present"
         },
         {
             id: 2,
             title: "Intermediate",
             institution: "Green Point Academy, West Bengal",
-            meta: "76%"
+            percentage: "76%",
+            duration: "2021 - 2023"
         },
         {
             id: 3,
             title: "Matriculation",
             institution: "Narayana School, West Bengal",
-            meta: "80%"
+            percentage: "80%",
+            duration: "2019 - 2021"
         }
     ],
 
@@ -116,7 +125,7 @@ export const portfolioData = {
             title: "Deloitte Australia Technology Job Simulation",
             date: "Jun 2025",
             link: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_68c8623c605e6e6f57aa253a_1757963727873_completion_certificate.pdf" // Paste certificate link here
-        },
+        }
     ],
 
     // Hackathon participations
@@ -134,17 +143,11 @@ export const portfolioData = {
     ],
 
     // Long intro used in the About section
-    about: `I’m a Full Stack Developer in the making, currently pursuing a B.Tech in Computer Science at Lovely Professional University.
-
-What started as curiosity about how websites work has evolved into a strong passion for building scalable, real-world applications using the MERN stack (MongoDB, Express.js, React, Node.js).
-
-Beyond development, I’m deeply invested in problem-solving. I actively practice Data Structures and Algorithms on LeetCode, continuously sharpening my logical thinking, code optimization skills, and ability to tackle complex challenges.
-
-With a GPA of 7.64, certifications from NPTEL, MongoDB, and LPU, and hands-on experience through hackathons like EY Hackathon 6.0 and Build-a-Thon, I consistently push myself to learn, build, and grow.
-
-I believe great developers don’t just write code — they solve problems that create impact.
-
-Currently, I’m seeking opportunities where I can contribute, learn, and grow while building meaningful and impactful software.`,
+    about: `I’m a <span class="highlight">Full Stack Developer</span> in the making, currently pursuing <span class="highlight">B.Tech in Computer Science</span> at <span class="highlight">Lovely Professional University</span>.
+Passionate about building scalable, real-world applications using the <span class="highlight">MERN stack</span> (MongoDB, Express.js, React, Node.js).
+I actively practice <span class="highlight">Data Structures & Algorithms</span> on <span class="highlight">LeetCode</span>, strengthening my problem-solving and code efficiency skills.
+With a GPA of <span class="highlight">7.64</span>, certifications, and experience in hackathons, I continuously focus on learning, building, and growing.
+I believe in creating <span class="highlight">impactful solutions</span>, not just writing code.`,
 
     // Coding and blog platform profiles
     profiles: [

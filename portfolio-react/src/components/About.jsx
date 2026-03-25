@@ -49,7 +49,7 @@ const About = () => {
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
                     <div className="about-text">
-                        <p className="about-intro">{about}</p>
+                        <p className="about-intro" dangerouslySetInnerHTML={{ __html: about }} />
                         <div className="stats-grid">
                             {stats.map((stat, index) => (
                                 <div key={index} className="stat-card">

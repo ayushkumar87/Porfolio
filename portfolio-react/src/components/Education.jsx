@@ -17,7 +17,12 @@ const Education = () => {
                                     <div className="timeline-content">
                                         <h4 className="timeline-title">{edu.title}</h4>
                                         <p className="timeline-subtitle">{edu.institution}</p>
-                                        <p className="timeline-meta">{edu.meta}</p>
+                                        <p className="timeline-meta">
+                                            {edu.duration}
+                                            {edu.duration && (edu.cgpa || edu.percentage) && " | "}
+                                            {edu.cgpa && <span>CGPA: {edu.cgpa}</span>}
+                                            {edu.percentage && <span>Percentage: {edu.percentage}</span>}
+                                        </p>
                                     </div>
                                 </div>
                             ))}
