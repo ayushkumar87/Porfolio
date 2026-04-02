@@ -173,7 +173,7 @@ MIT License — Free to use and modify.
 ## 👨‍💻 Author
 
 **Ayush Kumar**
-🚀 Full Stack Developer | MERN Stack | Problem Solver
+🚀 Full Stack Developer | MERN Stack | Problem Solver | Backend Devloper
 
 ---
 
